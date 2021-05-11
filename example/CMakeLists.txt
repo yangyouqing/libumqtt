@@ -11,4 +11,8 @@ include_directories(
     ${LIBEV_INCLUDE_DIR})
 
 add_executable(example example.c)
+add_executable(umqtt_pub umqtt_pub.c)
+add_executable(umqtt_sub umqtt_sub.c)
 target_link_libraries(example PRIVATE ${LIBS})
+target_link_libraries(umqtt_pub PRIVATE ${LIBS})
+target_link_libraries(umqtt_sub PRIVATE ${LIBS})

@@ -1,6 +1,6 @@
 [submodule "src/buffer"]
 	path = src/buffer
-	url = https://github.com/zhaojh329/buffer
+	url = https://github.com/yangyouqing/buffer
 [submodule "src/ssl"]
 	path = src/ssl
-	url = https://github.com/zhaojh329/ssl
+	url = https://github.com/yangyouqing/ssl

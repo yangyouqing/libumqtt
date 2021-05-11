@@ -33,7 +33,7 @@ target_include_directories(umqtt PRIVATE ${CMAKE_CURRENT_BINARY_DIR} ${LIBEV_INC
 # configure a header file to pass some of the CMake settings to the source code
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)
 
-add_subdirectory(lua)
+#add_subdirectory(lua)
 
 install(
     FILES
